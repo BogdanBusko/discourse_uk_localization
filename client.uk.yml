@@ -35,7 +35,8 @@ uk:
         half_a_minute: "< 1 хв"
         date_year: "MMM 'YY"
         date_month: "MMM D"
-        x_days: "%{count} д."
+        x_days: 
+          few: "%{count} д."
       medium:
         x_minutes:
           one: "1 хвилина"
@@ -1285,7 +1286,7 @@ uk:
       groups:
         primary: "Primary Group"
         no_primary: "(no primary group)"
-        automatic: "Автоматично"
+        automatic: "Групи створені адміном"
         title: "Групи"
         edit: "Редагувати групи"
         refresh: "Оновити"
@@ -1317,7 +1318,9 @@ uk:
         all_users: "All Users"
       web_hooks:
         title: "Webhooks"
+        none: "There are no webhooks right now."
         create: "Створити"
+        new: "New Webhook"
         save: "Зберегти"
         destroy: "Видалити"
         description: "Опис"
@@ -1339,6 +1342,7 @@ uk:
           event_id: "ID"
           timestamp: "Створено"
           actions: "Дії"
+
       plugins:
         title: "Плагіни"
         installed: "Installed Plugins"
@@ -1419,11 +1423,13 @@ uk:
         import: "Імпорт"
         delete: "Delete"
         delete_confirm: "Delete this customization?"
+        about: "Modify CSS stylesheets and HTML headers on the site. Add a customization to start."
         color: "Колір"
         opacity: "Непрозорість"
         copy: "Копіювати"
         email_templates:
           title: "Шаблони листів"
+          none_selected: "Select an email template to begin editing."
           subject: "Тема"
           body: "Тіло"
           revert: "Повернути зміни"
@@ -1494,6 +1500,7 @@ uk:
           to_addresses: "До"
           subject: "Тема"
           error: "Помилка"
+          none: "No incoming emails found."
           modal:
             error: "Помилка"
             headers: "Заголовки"
@@ -1532,6 +1539,7 @@ uk:
         staff_actions:
           title: "Дії персоналу"
           clear_filters: "Показати все"
+          instructions: "Click usernames and actions to filter the list. Click profile pictures to go to user pages."
           staff_user: "Член персоналу"
           target_user: "Target User"
           subject: "Тема"
@@ -1593,11 +1601,15 @@ uk:
             ip_address: "IP-адреса"
             add: "Додати"
             filter: "Пошук"
+        logster:
+          title: "Error Logs"
+
       impersonate:
         title: "Impersonate"
         not_found: "Цього користувача не вдалося знайти."
       users:
         title: 'Користувачі'
+        not_verified: "Not verified"
         create: 'Додати адміністратора'
         last_emailed: "Останній ел. лист"
         not_found: "Даруйте, такого імені користувача немає в нашій системі."
@@ -1623,6 +1635,7 @@ uk:
           moderators: 'Модератори'
           blocked: 'Заблоковані користувачі'
           suspended: 'Призупинені користувачі'
+          suspect: 'Suspect Users'
         check_email:
           text: "Показати"
       user:
@@ -1632,6 +1645,8 @@ uk:
         suspend_duration_units: "(днів)"
         suspend_reason_label: "Чому Ви призупиняєте цього користувача? Цей текст <b>буде видимим для всіх</b> на сторінці профілю цього користувача, і його буде показано користувачу при спробі увійти в систему. Будьте лаконічні."
         staged: "Staged?"
+        delete_confirm: "Are you SURE you want to delete this user? This is permanent!"
+        delete_and_block: "Delete and <b>block</b> this email and IP address"
         suspend_reason: "Причина"
         suspended_by: "Призупинено"
         delete_all_posts: "Видалити всі дописи"
