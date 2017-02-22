@@ -891,7 +891,7 @@ uk:
         permissions: Дозволи
         post_count: Дописів створено
         posts_read_count: Дописів прочитано
-        private_topics_count: Приватних ідей
+        private_topics_count: Приватних тем
         refresh_browsers: Примусово оновити оглядач
         refresh_browsers_message: Повідомлення надіслано всім клієнтам!
         reputation: Репутація
@@ -946,8 +946,8 @@ uk:
             other: 'In the last %{count} days:'
           title: Вимоги для Рівня довіри 3
           topics_replied_to: теми, на які відповів(ла)
-          topics_viewed: Переглянуто ідей
-          topics_viewed_all_time: Переглянуто ідей (за весь час)
+          topics_viewed: Переглянуто тем
+          topics_viewed_all_time: Переглянуто тем (за весь час)
           value_heading: Значення
           visits: Відвідини
           will_be_demoted: Will be demoted soon.
@@ -1651,7 +1651,7 @@ uk:
       one: "{{count}} символ"
       other: "{{count}} символів"
     choose_topic:
-      none_found: Не знайдено ідей.
+      none_found: Не знайдено тем.
       title:
         placeholder: введіть назву теми
         search: 'Шукати тему за назвою, url або id:'
@@ -1970,15 +1970,15 @@ uk:
         help: the most active topics in the last year, month, week or day
         monthly:
           title: Щомісяця
-        other_periods: переглянути топ ідей за
+        other_periods: переглянути топ тем за
         quarterly:
           title: Щоквартала
         this_month: Місяць
         this_quarter: Квартал
         this_week: Тиждень
         this_year: Рік
-        title: Top
-        today: Today
+        title: Топ
+        today: Сьогодні
         weekly:
           title: Щотижня
         yearly:
@@ -2173,7 +2173,7 @@ uk:
       post_count: кількість дописів
       read_time: час читання
       title: Пошук IP адреси
-      topics_entered: створено ідей
+      topics_entered: створено тем
       trust_level: TL
       username: Ім'я користувача
     joined: Приєднався(-лась)
@@ -2862,7 +2862,7 @@ uk:
       auto_close_save: Зберегти
       auto_close_title: Налаштування автоматичного закриття
       automatically_add_to_groups: 'This invite also includes access to these groups:'
-      back_to_list: Повернутися до списку ідей
+      back_to_list: Повернутися до списку тем
       browse_all_categories: Переглянути всі категорії
       change_owner:
         action: змінити володіння
@@ -2882,7 +2882,7 @@ uk:
         invalid_timestamp: Timestamp cannot be in the future.
         title: Change Timestamp
       clear_pin:
-        help: Скасувати закріплення цієї теми, щоб вона більше не з'являлася на початку Вашого переліку ідей
+        help: Скасувати закріплення цієї теми, щоб вона більше не з'являлася на початку Вашого переліку тем
         title: Відкріпити
       controls: Topic Controls
       create: Нова тема
@@ -3107,24 +3107,24 @@ uk:
         other: у вас {{count}} непрочитаних старих дописів у цій теми
       unread_topics:
         one: 1 непрочитана тема
-        other: "{{count}} непрочитаних ідей"
+        other: "{{count}} непрочитаних тем"
       unsubscribe:
         change_notification_state: Ваш поточний статус сповіщень
         stop_notifications: Тепер ви не будете отримувати спровіщень щодо <strong>{{title}}</strong>
       view_latest_topics: перегляньте останні теми
     topic_admin_menu: керування ідеєю
     topic_count_latest:
-      few: 'нових чи оновлених ідей: {{count}}.'
+      few: 'нових чи оновлених тем: {{count}}.'
       one: "{{count}} нова чи оновлена тема."
-      other: 'непрочитаних ідей: {{count}}.'
+      other: 'непрочитаних тем: {{count}}.'
     topic_count_new:
-      few: нових ідей {{count}}.
+      few: нових тем {{count}}.
       one: "{{count}} нова тема."
-      other: 'нових ідей: {{count}}.'
+      other: 'нових тем: {{count}}.'
     topic_count_unread:
-      few: 'непрочитаних ідей: {{count}}.'
+      few: 'непрочитаних тем: {{count}}.'
       one: "{{count}} непрочитана тема."
-      other: 'непрочитаних ідей: {{count}}.'
+      other: 'непрочитаних тем: {{count}}.'
     topic_map:
       clicks:
         one: 1 click
@@ -3158,15 +3158,15 @@ uk:
     topics:
       bottom:
         bookmarks: There are no more bookmarked topics.
-        category: Більше немає ідей в категорії {{category}}.
-        hot: Більше немає гарячих ідей.
-        latest: Більше немає останніх ідей.
-        new: Більше немає нових ідей.
+        category: Більше немає тем в категорії {{category}}.
+        hot: Більше немає гарячих тем.
+        latest: Більше немає останніх тем.
+        new: Більше немає нових тем.
         posted: There are no more posted topics.
-        read: Більше немає прочитаних ідей.
+        read: Більше немає прочитаних тем.
         search: There are no more search results.
         top: There are no more top topics.
-        unread: Більше немає непрочитаних ідей.
+        unread: Більше немає непрочитаних тем.
       bulk:
         actions: Масові дії
         also_dismiss_topics: Stop tracking these topics so they never show up as unread for me again
@@ -3195,18 +3195,18 @@ uk:
       new_messages_marker: останнє відвідування
       none:
         bookmarks: You have no bookmarked topics yet.
-        category: В категорії {{category}} немає ідей.
+        category: В категорії {{category}} немає тем.
         educate:
           new: <p>Тут будуть зявлятися ваші нові теми.</p><p>По замовчуванню, теми вважаються новими і відображається мітка <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">new</span> якщо вони були створені протягом останніх двох днів.</p><p>Зайдіть у ваші<a href="%{userPrefsUrl}">налаштування</a>, щоб змінити це.</p>
           unread: <p>Тут будуть зявлятися ваші непрочитані теми.</p><p>По замовчуванню,теми вважаються непрочитаними і відображається число непрочитаних повідолмень <span class="badge new-posts badge-notification">1</span> якщо ви:</p><ul><li>Створили тему</li><li>Відповіли на тему</li><li>Читали тему більше 4 хвилин</li></ul><p>Або ви відмітили тему як Відстежувана або Відслідковувана внизу кожної теми.</p><p>Зайдіть у ваші <a href="%{userPrefsUrl}">налаштування</a> щоб змінити це.</p>
-        hot: Гарячих ідей немає.
-        latest: Останніх ідей немає. Шкода.
-        new: У Вас немає нових ідей.
+        hot: Гарячих тем немає.
+        latest: Останніх тем немає. Шкода.
+        new: У Вас немає нових тем.
         posted: Ви ще не дописували в жодну тему.
         read: Ви ще не прочитали жодної теми.
         search: Немає результатів пошуку для відображення
-        top: В топі немає ідей
-        unread: У Вас немає непрочитаних ідей.
+        top: В топі немає тем
+        unread: У Вас немає непрочитаних тем.
     trust_level: Рівень довіри
     undo: Скасувати
     unmute: Unmute
@@ -3322,7 +3322,7 @@ uk:
         confirm: Ви впевнені що ви хочете завантажити ваші дописи?
         rate_limit_error: Дописи можуть бути завантажені тільки раз на день, будь ласка, спробуйте завтра.
         success: Завантаження розпочалося, ви отримаєте повідомлення, коли процес завершиться.
-      dynamic_favicon: Показувати кількість нових/відредагованих ідей на значку в барузері
+      dynamic_favicon: Показувати кількість нових/відредагованих тем на значку в барузері
       edit: Редагувати налаштування
       email:
         authenticated: Ваша електронна адреса була ідентифікована за допогою {{provider}}
@@ -3338,7 +3338,7 @@ uk:
       email_activity_summary: Підсумок активності
       email_always: Надсилати мені сповіщення на електронну пошту навіть якщо я активний на сайті
       email_digests:
-        title: Якщо я не заходжу на сайт, надішліть мені електроним листом підсумки популярний ідей та дописів.
+        title: Якщо я не заходжу на сайт, надішліть мені електроним листом підсумки популярний тем та дописів.
         daily: щодня
         every_30_minutes: кожні 30 хвилин
         every_hour: щогодини
@@ -3517,7 +3517,7 @@ uk:
           other: "<i class='fa fa-heart'></i> отримано"
         more_badges: Більше значків
         more_replies: Більше відповідей
-        more_topics: Більше ідей
+        more_topics: Більше тем
         most_liked_by: Найбільше вподобань від
         most_liked_users: Найбільше вподобав
         most_replied_to_users: Найбільше відповідей
@@ -3525,7 +3525,7 @@ uk:
         no_likes: Ще немає вподобань.
         no_links: Ще немає посилань.
         no_replies: Ще немає відповідей.
-        no_topics: Ще немає ідей.
+        no_topics: Ще немає тем.
         post_count:
           one: допсів створено
           few: дописів створено
@@ -3533,18 +3533,18 @@ uk:
         posts_read:
           one: тему прочитано
           few: теми прочитано
-          other: ідей прочитано
+          other: тем прочитано
         stats: Статистика
         time_read: час читання
         title: Підсумок
         top_badges: Топ значків
         top_links: Топ посилань
         top_replies: Топ відповідей
-        top_topics: Топ ідей
+        top_topics: Топ тем
         topic_count:
           one: тему створено
           few: теми створено
-          other: ідей створено
+          other: тем створено
       suspended_notice: Цього користувача призупинено до {{date}}.
       suspended_reason: 'Причина: '
       tag_settings: Теги
@@ -3625,7 +3625,7 @@ uk:
     week: тиждень
     week_desc: теми, що були створені у останні 7 днів
     weekly: щотижня
-    wizard_required: It's time to configure your forum! <a href='%{url}' data-auto-route='true'>Start the Setup Wizard</a>!
+    wizard_required: Час налаштувати ваш форум! <a href='%{url}' data-auto-route='true'>Запустіть майстер установки!</a>!
     year: рік
     year_desc: теми, що були створені у останні 365 днів
     yes_value: Так
@@ -3787,7 +3787,7 @@ uk:
     latest: Latest
     posts: Posts
     private_posts: Private posts
-    top: Top
+    top: Топ
     user_posts: User posts
     user_topics: User topics
   rss_posts_in_topic: Rss posts in topic
