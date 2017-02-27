@@ -2013,9 +2013,9 @@ uk:
       delete_confirm_MF: You are about to delete {POSTS, plural, one {<b>1</b> post} other {<b>#</b> posts}} and {TOPICS, plural, one {<b>1</b> topic} other {<b>#</b> topics}} from this user, remove their account, block signups from their IP address <b>{ip_address}</b>, and add their email address <b>{email}</b> to a permanent block list. Are you sure this user is really a spammer?
       delete_spammer: Видалити спамера
       formatted_name:
-        inappropriate: It's Inappropriate
-        off_topic: It's Off-Topic
-        spam: It's Spam
+        inappropriate: Це неприпустимо
+        off_topic: Це закритий пост
+        spam: Це спам
       hidden_email_address: "(приховано)"
       ip_address_missing: "(N/A)"
       notify_action: Повідомлення
@@ -2024,12 +2024,12 @@ uk:
       submit_tooltip: Submit the private flag
       take_action: Вжити заходів
       take_action_tooltip: Reach the flag threshold immediately, rather than waiting for more community flags
-      title: Thanks for helping to keep our community civil!
+      title: Дякую за допому в розвитку нашої спільноти!
       yes_delete_spammer: Так, видалити спамера
     flagging_topic:
       action: Поскаржитися на тему
       notify_action: Повідомлення
-      title: Thanks for helping to keep our community civil!
+      title: Дякую за допому в розвитку нашої спільноти!
     flags_title: Скарги
     forgot_password:
       action: Я забув(ла) свій пароль
@@ -2668,36 +2668,36 @@ uk:
       advanced:
         filters:
           bookmarks: I've bookmarked
-          first: are the very first post
-          label: Only return topics/posts that...
-          likes: I liked
-          pinned: are pinned
-          posted: I posted in
-          private: are in my messages
-          tracking: I'm tracking
-          unpinned: are not pinned
-          watching: I'm watching
-          wiki: are wiki
+          first: перші пости
+          label: Водобразити теми або пости які...
+          likes: мені сподобались
+          pinned: відмічені
+          posted: я запостив
+          private: знаходиться в моїх повідомленнях
+          tracking: я відслідковую
+          unpinned: не відмічені
+          watching: я переглянув
+          wiki: в wiki
         in_category:
           label: У категорії
         in_group:
           label: У групі
         post:
           count:
-            label: Minimum Post Count
+            label: Мінімальна кількість постів
           time:
             after: після
             before: перед
-            label: Posted
+            label: Створено
         posted_by:
           label: Опубліковано
         statuses:
-          archived: are archived
-          closed: are closed
-          label: Where topics
-          noreplies: have zero replies
-          open: are open
-          single_user: contain a single user
+          archived: в ахіві
+          closed: закрити
+          label: Де теми 
+          noreplies: мають 0 репостів
+          open: відкриті
+          single_user: містять тільки одного користувача
         title: Розширений пошук
         with_badge:
           label: With Badge
@@ -2722,7 +2722,7 @@ uk:
       searching: Пошук ...
       select_all: Обрати все
       sort_by: Сортувати за
-      title: search topics, posts, users, or categories
+      title: шукати теми, пости, користувачів або катугорії 
       too_short: Your search term is too short.
     search_hint: ім'я користувача, email або IP-адреса
     share:
