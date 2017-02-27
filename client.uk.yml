@@ -59,7 +59,7 @@ uk:
       save: Save
     dashboard:
       reports:
-        groups: Groups
+        groups: Групи
     email:
       error: Error
       test_error: Test error
@@ -792,7 +792,7 @@ uk:
           email: Електронна пошта
           embedding: Взаємодія
           files: Файли
-          groups: Groups
+          groups: Групи
           legal: Legal
           login: Вхід
           onebox: Onebox
@@ -2098,7 +2098,7 @@ uk:
       flair_url_placeholder: "(Optional) Image URL or Font Awesome class"
       index:
         empty: There are no visible groups.
-        title: Groups
+        title: Групи
       is_group_user: You are a member of this group
       join: Join Group
       leave: Leave Group
