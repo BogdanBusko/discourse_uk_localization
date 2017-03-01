@@ -2706,7 +2706,7 @@ uk:
           label: With Tags
       clear_all: Clear All
       context:
-        category: 'Search the #{{category}} category'
+        category: 'Шукати в категорії #{{category}}'
         private_messages: Шукати повідомлення
         topic: Пошук в цій теми
         user: Search posts by @{{username}}
