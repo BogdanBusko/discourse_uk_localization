@@ -2230,7 +2230,7 @@ uk:
         up_down: "<b>k</b>/<b>j</b> Move selection &uarr; &darr;"
       title: Поєднання клавіш
     last_post: Останній допис
-    last_reply_lowercase: last reply
+    last_reply_lowercase: останній коментар
     last_seen: Помічено востаннє
     learn_more: дізнатися більше...
     less: Менше
@@ -2641,8 +2641,9 @@ uk:
     refresh: Оновити
     replies: Відповіді
     replies_lowercase:
-      one: reply
-      other: replies
+      one: доповнення
+      other: доповнень
+      few: доповнень
     revert: Повернути
     s3:
       regions:
@@ -2692,7 +2693,7 @@ uk:
         posted_by:
           label: Опубліковано
         statuses:
-          archived: в ахіві
+          archived: в архіві
           closed: закрити
           label: Де теми 
           noreplies: мають 0 репостів
@@ -3613,15 +3614,17 @@ uk:
     username: Ім'я користувача
     users: Користувачі
     users_lowercase:
-      one: user
-      other: users
+      one: користувач
+      other: користувачів
+      few: користувачів
     views: Перегляди
     views_long:
       one: this topic has been viewed 1 time
       other: this topic has been viewed {{number}} times
     views_lowercase:
-      one: view
-      other: views
+      one: перегляд
+      other: переглядів
+      few: переглядів
     week: тиждень
     week_desc: теми, що були створені у останні 7 днів
     weekly: щотижня
